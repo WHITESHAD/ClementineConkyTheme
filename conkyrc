@@ -36,9 +36,11 @@ lua_draw_hook_post main
 
 TEXT
 ${if_running clementine}
-${voffset 30}${offset 90}${exec conkyClementine --nounknownoutput -m 27 -d AR}  
+${voffset 20}${offset 90}${exec conkyClementine --nounknownoutput -m 27 -d AR}  
 ${offset 40}${exec conkyClementine --nounknownoutput -m 27 -d TI}  
-${offset 40}${exec conkyClementine --nounknownoutput -m 26 -d AL -n}  
+${offset 40}${exec conkyClementine --nounknownoutput -m 26 -d AL -n}
+${offset 200}${voffset 129}${exec conkyClementine -d VO}
+${offset 85}${voffset 25}${exec conkyClementine -d PT}/${exec conkyClementine -d LE}s
 ${exec conkyClementine -d CA > /dev/null}
 ${exec scripts/cropcircle.sh /tmp/cover}
 ${image cover_circ.png -p 50,110 -s 145x145 -f 5 }
