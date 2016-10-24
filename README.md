@@ -1,5 +1,5 @@
 # ClementineConkyTheme
-A simple conky widget for Clementine.
+A simple conky widget for Clementine Player.
 
 
 ![](images/conkyrc1.jpg)
