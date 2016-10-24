@@ -1,2 +1,4 @@
 # ClementineConkyTheme
-a simple conky widget for Clementine
+A simple conky widget for Clementine
+
+![](images/conkyrc1.jpg)
