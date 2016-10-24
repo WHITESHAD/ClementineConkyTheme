@@ -13,7 +13,7 @@ The same with more infos
 
 You have to set the path to your conky directory in conkyrc.
 
-The ring can be modifie in conky_draw_config.lua. See the [conky-draw][fisadevLink] for more options. 
+The ring can be modifie in conky_draw_config.lua. See the [conky-draw][fisadevLink] documentation for more options. 
 
 
 ## Requirement:
