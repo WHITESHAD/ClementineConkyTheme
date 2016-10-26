@@ -38,8 +38,8 @@ lua_draw_hook_post main
 TEXT
 ${color d7d7d7}${cpugraph cpu6 1,275}${cpugraph cpu6 17,1}${color3}
 ${if_running clementine}
-${offset 150}${voffset -25}${exec conkyClementine -d PT}/${exec conkyClementine -d LE}s
-${offset 25}${exec conkyClementine --nounknownoutput -m 27 -d AR}  
+${offset 150}${voffset -25}${font neuropol:size=10}${exec conkyClementine -d PT}/${exec conkyClementine -d LE}s
+${offset 25}${font neuropol:size=12}${exec conkyClementine --nounknownoutput -m 27 -d AR}  
 ${offset 25}${exec conkyClementine --nounknownoutput -m 27 -d TI}  
 ${offset 25}${exec conkyClementine --nounknownoutput -m 26 -d AL -n}
 ${offset 230}${voffset 8}${exec conkyClementine -d VO}
