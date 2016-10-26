@@ -26,3 +26,8 @@ The ring can be modifie in conky_draw_config.lua. See the [conky-draw][fisadevLi
 
 
 [fisadevLink]: https://github.com/fisadev/conky-draw
+
+
+##TODO
+
+Add display something when Clementine is not start or find a way to not display the rings
