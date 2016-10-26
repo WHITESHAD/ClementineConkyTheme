@@ -1,14 +1,15 @@
 # ClementineConkyTheme
 A simple conky widget for Clementine Player.
 
+V1:
 
-![](images/conkyrc1.jpg)
-
-
-The same with more infos
+![](images/clementineConkyV1.jpg)
 
 
-![](images/conkyrc2.jpg)
+V2:
+
+
+![](images/clementineConkyV2.jpg)
 
 
 You have to set the path to your conky directory in conkyrc.
