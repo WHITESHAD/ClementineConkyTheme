@@ -32,7 +32,7 @@
  gap_y -10 
 
 
-lua_load /home/whiteshad/.conky/custom/lua/conky_draw.lua
+lua_load conky_draw.lua
 lua_draw_hook_post main
 
 TEXT
